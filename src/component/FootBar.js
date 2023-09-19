@@ -36,14 +36,6 @@ export default class FootBar extends Component {
                     <li>contact us</li>
                   </ul>
                   </div>
-                  <div><h5>Support</h5>
-                  <ul className='list-group' style={{listStyle:'none'}}>
-                    <li className='nav-item'>contact us</li>
-                    <li>Privacy Policy</li>
-                    <li>contact us</li>
-                    <li>contact us</li>
-                  </ul>
-                  </div>
                  </div>     
                  <div className='bg-black text-white' style={{backgroundColor:"black",display:"flex",justifyContent : 'space-between',alignItems:"center",flexWrap:"wrap", width : '100%'}}>
                   
