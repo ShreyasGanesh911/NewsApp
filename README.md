@@ -1,3 +1,8 @@
+# NewsAPP
+My first react application shows the top news from several categories.
+
+API: [News API](https://newsapi.org/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
