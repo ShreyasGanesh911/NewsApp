@@ -2,14 +2,14 @@ import './App.css';
 import React from 'react'
 import Navbar from './component/Navbar';
 import NewsDisplay from './component/NewsDisplay';
-import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
+import {HashRouter,Route,Routes} from "react-router-dom";
 import FootBar from './component/FootBar';
 
 function App(){
 
     return (
       <>
-      <Router>
+      <HashRouter>
         <Navbar/>
        
        
@@ -27,7 +27,7 @@ function App(){
           </Route>
         </Routes>
         
-      </Router>
+      </HashRouter>
       <FootBar/>
       </>
     )
