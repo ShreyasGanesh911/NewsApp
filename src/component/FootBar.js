@@ -20,7 +20,7 @@ export default class FootBar extends Component {
                  <div className="newsletter text-white foot" style={{height:"40vh",width:"100vw",backgroundColor:"black",display:"flex",justifyContent:"center",alignItems:"center",flexWrap:"wrap"}}>   
                          
                     <div className="">
-                          <h2>Subscribe to Our Newsletter</h2>
+                          <h2>Subscribe to Our Newsletter </h2>
                               <label htmlFor="exampleInputEmail1" className="form-label "></label>
                              <input type="email" className="bg-black mx-3 text-white" id="exampleInputEmail1" placeholder='Enter your email here*' style={{border:"none",borderBottom:"1px solid"}}         aria-describedby="emailHelp" pattern="[A-Za-z0-9]" />
                               <button type="button" className="btn btn-outline-secondary" onClick={trigger}>Subscribe</button>
